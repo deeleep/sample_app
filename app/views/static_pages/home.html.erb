@@ -1,23 +1,11 @@
-
-# <title>Home | Ruby on Rails Tutorial Sample App </title>
-# <h1>Sample App</h1>
-# <p>This is the home page for the
-#   <a href="https://railstutorial.jp/">Ruby on Rails documentation</a>
-#   Sample application.
-# </p>
-
-
-<% provide(:title, "Home") %>
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
-  </head>
-  <body>
-    <h1>Sample App</h1>
-    <p>
-      This is the home page for the <a href="https://railstutorial.jp/">Ruby on Rails Tutorial</a>
-      sample application.
-    </p>
-  </body>
-</html>
+<div class= "center Jumbotron">
+    <h1>Welcome to the Sample App</h1>
+    <h2>
+        This is the home page for the 
+        <a href="https://railstutorial.jp/">Ruby on Rails Tutorial</a>
+        Sample application.
+    </h2>
+    <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"), "https://rubyonrails.org/" %>
+<%= image_tag 'kitten.jpg' %>
