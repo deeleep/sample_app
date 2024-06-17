@@ -6,6 +6,12 @@ ruby "3.2.3"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4", ">= 7.0.4.3"
 
+# Include Bootstrap 3.4.1 stylesheets using Sass(Included)
+gem  "bootstrap-sass" ,   "3.4.1"
+
+# Adding this gem ensures compatibility with newer Rails versions.(included)
+gem 'rails-controller-testing'
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
