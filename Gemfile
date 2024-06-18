@@ -6,6 +6,9 @@ ruby "3.2.3"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4", ">= 7.0.4.3"
 
+# Adds support for securely hashing and storing passwords(Included )
+gem  "bcrypt" ,           "3.1.18"
+
 # Include Bootstrap 3.4.1 stylesheets using Sass(Included)
 gem  "bootstrap-sass" ,   "3.4.1"
 
