@@ -28,7 +28,7 @@ input  {
 /*  Dropdown  menu  */ 
 
 .dropdown-menu.active  { 
-  display :  block ; 
+  display :  block; 
 }
 
 /* miscellaneous */
@@ -140,6 +140,22 @@ h1 ,  h2 ,  h3 ,  h4 ,  h5 ,  h6  {
         font-size :  1 .1em ; 
         line-height :  1 .7em ; 
       }
+  }
+
+/* session _remember css styles * forms */
+
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+  #session_remember_me {
+    width: auto;
+    margin-left: 0;
   }
 
   

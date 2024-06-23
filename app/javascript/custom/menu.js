@@ -15,7 +15,7 @@ document.addEventListener( "turbo:load" ,  function ()  {
     if  (account)  { 
       account.addEventListener ( "click" , function (event )  { 
         event.preventDefault (); 
-        let  menu  =  document.querySelector ( "account", "#dropdown-menu" ); 
+        let  menu  =  document.querySelector ( "#dropdown-menu" ); 
         menu.classList.toggle( "active" ); 
       }); 
     } 
