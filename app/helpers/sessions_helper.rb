@@ -26,7 +26,7 @@ module SessionsHelper
       end
     end
   end
-
+  # The above code is better than this code we are using the above code, it does not have vulnerability
   # def current_user
   #   if (user_id = session[:user_id])  # Check if there's a user ID in the session
   #     @current_user ||= User.find_by(id: session[:user_id])  # Memoize the current user if not already set
