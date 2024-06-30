@@ -9,6 +9,12 @@ gem "rails", "~> 7.0.4", ">= 7.0.4.3"
 # Adds support for securely hashing and storing passwords(Included )
 gem  "bcrypt" ,           "3.1.18"
 
+# Include faker create the  fake user list
+gem  "faker" ,            "2.21.0"
+
+# Gemfile for pagination to paginate 
+gem 'will_paginate', '~> 3.3'
+
 # Include Bootstrap 3.4.1 stylesheets using Sass(Included)
 gem  "bootstrap-sass" ,   "3.4.1"
 

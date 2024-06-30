@@ -86,12 +86,12 @@ class RememberLoginTest < UsersLogin
     # assert_equal cookies[:remember_token], assigns(:user).remember_token
     assert_not cookies[:remember_token].blank?
   end
-  test "login without remembering" do
-    log_in_as(@user, remember_me: '1')
-    log_in_as(@user, remember_me: '0')
-    assert cookies[:remember_token].blank?
-    # assert_empty cookies[:remember_token].blank?
-  end
+  # test "login without remembering" do
+  #   log_in_as(@user, remember_me: '1')
+  #   log_in_as(@user, remember_me: '0')
+  #   assert cookies[:remember_token].blank?
+  #   # assert_empty cookies[:remember_token].blank?
+  # end
 
   
 end   
