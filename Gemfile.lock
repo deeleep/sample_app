@@ -77,6 +77,8 @@ GEM
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
       sassc (>= 2.0.0)
+    bootstrap-will_paginate (1.0.0)
+      will_paginate
     builder (3.3.0)
     capybara (3.40.0)
       addressable
@@ -265,6 +267,7 @@ DEPENDENCIES
   bcrypt (= 3.1.18)
   bootsnap
   bootstrap-sass (= 3.4.1)
+  bootstrap-will_paginate (= 1.0.0)
   capybara
   debug
   faker (= 2.21.0)

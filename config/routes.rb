@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   resources :users
+  resources :account_activations, only: [:edit]
   root  "static_pages#home"
   # get "/help", to: "static_pages#help", as: 'helf'
   get "/help", to: "static_pages#help"
