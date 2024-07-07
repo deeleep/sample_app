@@ -190,5 +190,4 @@ class RememberingTest < UsersLogin
   end
 end
 
-  
 end   
