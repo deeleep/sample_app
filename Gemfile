@@ -14,8 +14,16 @@ gem  "faker" ,            "2.21.0"
 
 # Gemfile for pagination to paginate 
 gem 'will_paginate', '~> 3.3'
+
 # Genfile for the bootrap will pagination
 gem "bootstrap-will_paginate", "1.0.0"
+
+# Gemfile for image resize , crop and rotate
+
+gem "image_processing",           "1.12.2"
+
+#Gemfile for storage the  image in the active storage
+gem "active_storage_validations", "0.9.8"
 
 # Include Bootstrap 3.4.1 stylesheets using Sass(Included)
 gem  "bootstrap-sass" ,   "3.4.1"
